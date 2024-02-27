@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Install iotop
+      apt:
+        pkg: iotop
+        state: installed
+        update_cache: true
