@@ -5,5 +5,5 @@
     - name: Install iotop
       apt:
         pkg: iotop
-        state: installed
+        state: latests
         update_cache: true
